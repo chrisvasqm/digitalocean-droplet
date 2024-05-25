@@ -1,14 +1,17 @@
-# Digital Ocean Droplet App
+# Docker + Node + TypeScript Demo
 
-Demostration project to try out how it would be to deploy a Node.js API using Digital Ocean's Droplet Virtual Machines.
+Demostration project to show how to dockerize a Node.js API using TypeScript.
 
 ## Requirements 🛑
 
 1. Node
 2. Code editor/IDE
 3. pnpm
+4. Docker
 
 ## Getting started 👨🏻‍💻
+
+### Running the server locally:
 
 - Install all the dependencies from this project:
 
@@ -28,7 +31,7 @@ If everything is working correclty, you should see the following message in the 
 Server listening on http://localhost:3000
 ```
 
-## Dockerizing the app 🐳
+## Running the server from a Docker container 🐳
 
 - Generate an image of the current code
 
@@ -48,4 +51,4 @@ If you see the following message:
 Server listening on http://localhost:3030
 ```
 
-Means that you can make HTTP Requests to the dockerized app 🎉
+This means that you can make HTTP Requests to the dockerized app 🎉
