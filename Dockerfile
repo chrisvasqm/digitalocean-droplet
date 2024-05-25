@@ -5,7 +5,8 @@ RUN addgroup app && adduser -S -G app app
 USER app
 
 WORKDIR /app
-COPY . .
+COPY package.json pnpm-lock.yaml ./
 RUN pnpm install
+COPY . .
 EXPOSE 3030
 CMD ["pnpm" "start"]
