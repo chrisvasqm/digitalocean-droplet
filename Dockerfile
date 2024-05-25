@@ -4,4 +4,4 @@ COPY . .
 RUN npm install -g pnpm
 RUN pnpm install
 EXPOSE 3030
-CMD ["pnpm", "start"]
+CMD pnpm start
