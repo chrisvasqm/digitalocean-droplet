@@ -1,7 +1,6 @@
 {
   "name": "digitalocean-droplet",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
